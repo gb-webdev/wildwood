@@ -1,5 +1,5 @@
 .home-div-wrap {
-    background-image: url('../assets/chisel-bg-1.png'), url('../assets/drill.png');
+    background: linear-gradient(rgba(9, 9, 6, 0.4), rgba(8, 7, 7, 0.8)), url('../assets/chisel-bg-1.png');
     background-size: cover;
     background-repeat: repeat-y;
     height: 100vh;
@@ -11,16 +11,29 @@
     font-weight: bolder;
 }
 
-.home-div {
+.greeter-div {
     padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
 }
 
 .welcome {
-    font-size: 5vh;
+    font-size: 7vh;
+    color: antiquewhite;
+    text-shadow: 0 1.5px 0 black;
 }
 
 .welcome-2 {
-    font-size: 5vh;
+    font-size: 5.5vh;
+    color: antiquewhite;
+    text-shadow: 0 1.5px 0 black;
+}
+
+.home-cta {
+    font-size: 3.5vh;
+    color: antiquewhite;
+    text-shadow: 0 1.5px 0 black;
 }
 
 @media only screen and (max-width: 600px) {

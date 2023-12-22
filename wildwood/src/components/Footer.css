@@ -3,6 +3,12 @@
     width: auto;
     background-color: #2e2e2e;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    display: flex;
     align-items: center;
     padding-left: 0.5%;
     color: antiquewhite;
@@ -13,6 +19,24 @@ color: antiquewhite;
 &:hover {
     color: 	#cdaa7d;
 }
+}
+
+.socials-div {
+    display: flex;
+    align-items: center;  
+    padding-right: 0.5%;
+}
+
+.instagram {
+    height: 5.5vh;
+    width: auto;
+}
+
+.email {
+    height: 5.4vh;
+    width: auto;
+    margin-bottom: 0.5vh;
+    padding-left: 0.5vw;
 }
 
 @media only screen and (max-width: 600px) {
