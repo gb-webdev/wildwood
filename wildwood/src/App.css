@@ -1,1 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=VT323&display=swap');
 
+* {
+    font-family: 'Marcellus', serif;
+    box-sizing: border-box;
+}
