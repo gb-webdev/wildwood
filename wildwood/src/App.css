@@ -2,5 +2,17 @@
 
 * {
     font-family: 'Marcellus', serif;
-    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e;
+    border-radius: 8px;  
+}
+
+::-webkit-scrollbar-track {
+    background-color: #363636;
 }

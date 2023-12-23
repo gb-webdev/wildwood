@@ -1,15 +1,32 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow: auto;
+}
+
 .home-div-wrap {
     background: linear-gradient(rgba(9, 9, 6, 0.4), rgba(8, 7, 7, 0.8)), url('../assets/chisel-bg-1.png');
     background-size: cover;
     background-repeat: repeat-y;
+    background-attachment: fixed;
     height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     font-weight: bolder;
 }
+.home-wrap {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .greeter-div {
     padding-top: 4%;
@@ -34,6 +51,16 @@
     font-size: 3.5vh;
     color: antiquewhite;
     text-shadow: 0 1.5px 0 black;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+}
+
+.chisel {
+    height: 75%;
+    width: auto;
 }
 
 @media only screen and (max-width: 600px) {
