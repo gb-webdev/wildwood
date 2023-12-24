@@ -56,9 +56,22 @@ body {
 .services {
     display: flex;
     flex-direction: row;
+    color: antiquewhite;
+    text-shadow: 0 1.5px 0 black;
+    font-size: x-large;
 }
 
 .chisel {
+    height: 75%;
+    width: auto;
+}
+
+.chisel-div {
+    
+}
+
+.home-text {
+    background: linear-gradient(rgba(9, 9, 6, 0.4), rgba(8, 7, 7, 0.8)), url('../assets/dark-wood.png');
     height: 75%;
     width: auto;
 }
