@@ -16,15 +16,17 @@ const Home = () => {
             <h1>Contact me</h1>
             <h2>Andrew Harvey: xxx-xxx-xxxx</h2>
           </div>
-          <div className='services'>
-            <div className='chisel-div'>
+          <span className='services'>
+            <span className='chisel-div'>
               <img className='chisel' src={chisel}/>
-            </div>
-            <div>
+            </span>
+            <span className='home-text'>
               <h2>Services</h2>
-              <h3>At Wildwood, we specialize in the meticulous restoration/repair of cherished furniture, architectural elements and almost all things wooden, breathing new life into both antique treasures and modern pieces showing signs of wear. Our expert craftsmanship ensures that your possessions not only regain their former glory but emerge even more exquisite than before. For those seeking unique and tailor-made creations, our skilled artisans can craft bespoke items to your exact specifications—explore our gallery for a glimpse of our bespoke wonders in the Gallery. With Wildwood, every piece, old or new, is treated with the utmost care and dedication, ensuring your woodwork is not just restored, but elevated to a new level of timeless beauty.</h3>
-            </div>
-          </div>
+              <h3>At Wildwood, we specialize in the meticulous restoration/repair of cherished furniture, architectural elements and almost all things wooden, breathing new life into both antique treasures and modern pieces showing signs of wear. Our expert craftsmanship ensures that your possessions not only regain their former glory but emerge even more exquisite than before.</h3>
+
+               <h3>For those seeking unique and tailor-made creations, our skilled artisans can craft bespoke items to your exact specifications—explore our gallery for a glimpse of our bespoke wonders in the Gallery. With Wildwood, every piece, old or new, is treated with the utmost care and dedication, ensuring your woodwork is not just restored, but elevated to a new level of timeless beauty.</h3>
+            </span>
+          </span>
       </div>
     )
 }
