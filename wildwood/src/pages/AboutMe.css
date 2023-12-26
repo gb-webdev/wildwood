@@ -1,0 +1,13 @@
+.aboutme-div-wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/chisel-bg2.png');
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+    text-shadow: 0 1.5px 0 black;
+    font-size: x-large;
+} 

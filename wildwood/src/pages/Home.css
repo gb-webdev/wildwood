@@ -3,13 +3,12 @@ html {
 }
 
 body {
-    overflow: auto;
+    overflow-y: hidden;
 }
 
 .home-div-wrap {
     background: linear-gradient(rgba(9, 9, 6, 0.4), rgba(8, 7, 7, 0.8)), url('../assets/chisel-bg-1.png');
     background-size: cover;
-    background-repeat: repeat-y;
     background-attachment: fixed;
     height: 100vh;
     min-height: 100vh;
@@ -67,7 +66,7 @@ body {
 }
 
 .chisel-div {
-    
+
 }
 
 .home-text {

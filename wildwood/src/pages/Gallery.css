@@ -1,0 +1,16 @@
+.gallery-div-wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/drill.png');
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.job-2 {
+    height: 30vh;
+    width: auto;
+}
